@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color:  #d3d2d2; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(25deg, #ada7a7 50%, #e2e0e0 50%);
+}
+
+.container {
+    background-color:#e9e6e6;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.task-list {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 0;
+}
+
+.task {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(253, 252, 251);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
+.task label.strikethrough {
+    text-decoration: line-through;
+}
+
+
+form input[type="text"] {
+    margin-left: 60px;
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #616361;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #a9acaa;
+}
